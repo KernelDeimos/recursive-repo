@@ -1,3 +1,5 @@
+var fork = require('child_process').fork;
+
 // Base-case builder.
 // Javascript was chosen as an arbitrary platform-agnostic language.
 
@@ -27,7 +29,7 @@ if ( process.argv[2] !== '-b' ) {
       + 'you just attempted infinite recursion.');
     process.exit(1);
   }
-  fork('./src/built_builder.js');
+  fork(__dirname + '/src/built_builder.js');
 
   /*
   var spawn = require('child_process').spawn;
