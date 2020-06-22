@@ -1,0 +1,3 @@
+[submodule "recursive-repo"]
+	path = recursive-repo
+	url = git@github.com:KernelDeimos/recursive-repo.git
