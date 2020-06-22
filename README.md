@@ -1,5 +1,7 @@
 # Recursive Repository
 
+I'm going to delete this and try again later.
+
 This repository contains a submodule for a previous version of itself that
 does not contain a submodule.
 
